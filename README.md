@@ -1,2 +1,3 @@
 # git-unstaged
-Get all unstaged git repos in a folder
+
+> Get all unstaged git repos in a folder

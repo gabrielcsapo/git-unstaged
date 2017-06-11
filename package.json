@@ -1,0 +1,22 @@
+{
+  "name": "git-unstaged",
+  "version": "0.0.0",
+  "description": "Get all unstaged git repos in a folder",
+  "author": "Gabriel J. Csapo <gabecsapo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrielcsapo/git-unstaged/issues"
+  },
+  "homepage": "https://github.com/gabrielcsapo/git-unstaged#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielcsapo/git-unstaged.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
