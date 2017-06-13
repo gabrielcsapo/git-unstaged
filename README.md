@@ -2,6 +2,14 @@
 
 > Get all unstaged git repos in a folder
 
+[![Npm Version](https://img.shields.io/npm/v/git-unstaged.svg)](https://www.npmjs.com/package/git-unstaged)
+[![Build Status](https://travis-ci.org/gabrielcsapo/git-unstaged.svg?branch=master)](https://travis-ci.org/gabrielcsapo/git-unstaged)
+[![Coverage Status](https://node-coverage-server.herokuapp.com/badge/github%2Ecom/gabrielcsapo/git-unstaged.svg)](https://node-coverage-server.herokuapp.com/coverage/github%2Ecom/gabrielcsapo/git-unstaged)
+[![Dependency Status](https://david-dm.org/gabrielcsapo/git-unstaged.svg)](https://david-dm.org/gabrielcsapo/git-unstaged)
+[![devDependency Status](https://david-dm.org/gabrielcsapo/git-unstaged/dev-status.svg)](https://david-dm.org/gabrielcsapo/git-unstaged#info=devDependencies)
+[![npm](https://img.shields.io/npm/dt/git-unstaged.svg)]()
+[![npm](https://img.shields.io/npm/dm/git-unstaged.svg)]()
+
 ## Installation
 
 ```
