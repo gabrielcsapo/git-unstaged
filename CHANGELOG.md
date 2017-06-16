@@ -1,3 +1,7 @@
+# 0.1.0 (06/13/2017)
+
+- adds color to the output depending on the type of file modification occurred
+
 # 0.0.2 (06/13/2017)
 
 - adds tests

@@ -15,8 +15,16 @@ test('git-unstaged', (t) => {
     });
 
     t.test('runs git-unstaged in test directory', (t) => {
-        search(fixturesDirectory, 1, (c) => {
-            t.equal(c[path.resolve(fixturesDirectory, 'test1')], "## Initial commit on master\n?? t.txt\n");
+        setTimeout(() => {
+            search(fixturesDirectory, 1, (c) => {
+                t.equal(c[path.resolve(fixturesDirectory, 'test1')], "## Initial commit on master\n?? t.txt\n");
+                t.end();
+            });
+        }, 1000);
+    });
+
+    t.test('removes fixtures directory', (t) => {
+        exec('rm -r ' + path.resolve(__dirname, 'fixtures', 'test1'), () => {
             t.end();
         });
     });

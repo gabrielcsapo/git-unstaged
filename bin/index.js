@@ -24,7 +24,29 @@ search(process.cwd(), program.depth, (output) => {
                 if(index == 0) {
                     return log(chalk.white(value))
                 } else {
-                    return log(chalk.gray(value))
+                    // 'M' -> 'modified'
+                    // 'A ' -> 'added'
+                    // 'D' -> 'deleted'
+                    // 'R' -> 'renamed'
+                    // 'C' -> 'copied'
+                    // '??' -> 'untracked'
+
+                    switch(value.substring(0, 2).trim()) {
+                        case 'M':
+                            return log(chalk.red(value))
+                        case 'A':
+                            return log(chalk.green(value))
+                        case 'C':
+                            return log(chalk.yellow(value))
+                        case 'R':
+                            return log(chalk.magenta(value))
+                        case 'D':
+                            return log(chalk.bgRed.white(value))
+                        case '??':
+                            return log(chalk.gray(value))
+                        default:
+                            return log(chalk.white(value))
+                    }
                 }
             });
         }

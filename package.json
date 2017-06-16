@@ -1,6 +1,6 @@
 {
   "name": "git-unstaged",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Get all unstaged git repos in a folder",
   "author": "Gabriel J. Csapo <gabecsapo@gmail.com>",
   "license": "MIT",
