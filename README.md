@@ -50,3 +50,25 @@ $git-unstaged --depth=2
 ?? bin/
 ?? lib/
 ```
+
+> Since git allows the execution of non [builtin](https://github.com/git/git/blob/master/git.c#L528) methods another way to run this command would be
+
+```
+$git unstaged --depth=2
+
+/Users/gabrielcsapo/Documents/espyjs
+## wip
+ M index.js
+ D npm-debug.log
+ M package.json
+
+/Users/gabrielcsapo/Documents/git-unstaged
+## master...origin/master
+ M CHANGELOG.md
+ M README.md
+ M package.json
+?? .eslintignore
+?? .eslintrc
+?? bin/
+?? lib/
+```
