@@ -1,5 +1,7 @@
 # git-unstaged
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/gabrielcsapo/git-unstaged.svg)](https://greenkeeper.io/)
+
 > Get all unstaged git repos in a folder
 
 [![Npm Version](https://img.shields.io/npm/v/git-unstaged.svg)](https://www.npmjs.com/package/git-unstaged)
