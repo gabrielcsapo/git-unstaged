@@ -1,3 +1,10 @@
+# 0.3.0 (09/09/2017)
+
+- code cleanup 
+- drops support for node@4
+- updates license in package.json
+- updates `chalk@2.0.1` -> `chalk@2.1.0`
+
 # 0.2.0 (07/13/2017)
 
 - updates readme to include the ability to run as a custom git command

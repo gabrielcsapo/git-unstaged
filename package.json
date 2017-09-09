@@ -1,7 +1,7 @@
 {
   "name": "git-unstaged",
   "version": "0.2.0",
-  "description": "Get all unstaged git repos in a folder",
+  "description": "🎭 Get all unstaged git repos in a folder",
   "author": "Gabriel J. Csapo <gabecsapo@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -15,6 +15,7 @@
   "keywords": [
     "git"
   ],
+  "license": "MIT",
   "main": "index.js",
   "bin": {
     "git-unstaged": "./bin/index.js"
@@ -25,12 +26,12 @@
     "coverage": "tap test/*.js --coverage --coverage-report=lcov"
   },
   "dependencies": {
-    "chalk": "^2.0.1",
+    "chalk": "^2.1.0",
     "commander": "^2.11.0"
   },
   "devDependencies": {
-    "eslint": "^4.1.1",
-    "tap": "^10.7.0",
-    "tape": "^4.7.0"
+    "eslint": "^4.6.1",
+    "tap": "^10.7.2",
+    "tape": "^4.8.0"
   }
 }
