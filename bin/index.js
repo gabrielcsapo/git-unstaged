@@ -2,7 +2,7 @@
 
 const chalk = require('chalk');
 const program = require('commander');
-const search = require('../lib/search').search;
+const { search } = require('../lib/search');
 const log = console.log; // eslint-disable-line
 
 program
