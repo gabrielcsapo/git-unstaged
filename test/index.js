@@ -15,7 +15,7 @@ test('git-unstaged', (t) => {
         });
         setTimeout(() => {
           search(fixturesDirectory, 1, (c) => {
-              t.equal(c[path.resolve(fixturesDirectory, 'test1')], "## Initial commit on master\n?? t.txt\n");
+              t.equal(c[path.resolve(fixturesDirectory, 'test1')], "## No commits yet on master\n?? t.txt\n");
               exec('rm -r ' + path.resolve(__dirname, 'fixtures', 'test1'), () => {
                   t.end();
               });
@@ -29,7 +29,7 @@ test('git-unstaged', (t) => {
         });
         setTimeout(() => {
           const contents = getContents(path.resolve(fixturesDirectory, 'test1'));
-          t.equal(contents, '## Initial commit on master\n?? t.txt\n')
+          t.equal(contents, '## No commits yet on master\n?? t.txt\n')
           exec('rm -r ' + path.resolve(__dirname, 'fixtures', 'test1'), () => {
               t.end();
           });
