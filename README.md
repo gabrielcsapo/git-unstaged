@@ -4,9 +4,9 @@
 
 [![Npm Version](https://img.shields.io/npm/v/git-unstaged.svg)](https://www.npmjs.com/package/git-unstaged)
 [![Build Status](https://travis-ci.org/gabrielcsapo/git-unstaged.svg?branch=master)](https://travis-ci.org/gabrielcsapo/git-unstaged)
-[![Coverage Status](https://lcov-server.herokuapp.com/badge/github%2Ecom/gabrielcsapo/git-unstaged.svg)](https://lcov-server.herokuapp.com/coverage/github%2Ecom/gabrielcsapo/git-unstaged)
-[![Dependency Status](https://david-dm.org/gabrielcsapo/git-unstaged.svg)](https://david-dm.org/gabrielcsapo/git-unstaged)
-[![devDependency Status](https://david-dm.org/gabrielcsapo/git-unstaged/dev-status.svg)](https://david-dm.org/gabrielcsapo/git-unstaged#info=devDependencies)
+[![Coverage Status](https://lcov-server.gabrielcsapo.com/badge/github%2Ecom/gabrielcsapo/git-unstaged.svg)](https://lcov-server.gabrielcsapo.com/coverage/github%2Ecom/gabrielcsapo/git-unstaged)
+[![Dependency Status](https://starbuck.gabrielcsapo.com/badge/github/gabrielcsapo/git-unstaged/status.svg)](https://starbuck.gabrielcsapo.com/github/gabrielcsapo/git-unstaged)
+[![devDependency Status](https://starbuck.gabrielcsapo.com/badge/github/gabrielcsapo/git-unstaged/dev-status.svg)](https://starbuck.gabrielcsapo.com/github/gabrielcsapo/git-unstaged#info=devDependencies)
 [![npm](https://img.shields.io/npm/dt/git-unstaged.svg)]()
 [![npm](https://img.shields.io/npm/dm/git-unstaged.svg)]()
 
