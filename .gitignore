@@ -58,3 +58,4 @@ typings/
 .env
 test/fixtures/test1
 .DS_Store
+package-lock.json

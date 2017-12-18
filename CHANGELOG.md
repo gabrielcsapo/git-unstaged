@@ -1,6 +1,12 @@
+# 1.0.0 (12/18/2017)
+
+- removes commander
+- converts all synchronous activity to async (no more blocking io)
+  - increased speed `7%` [`322.030624ms -> 300.058158ms`]
+
 # 0.3.0 (09/09/2017)
 
-- code cleanup 
+- code cleanup
 - drops support for node@4
 - updates license in package.json
 - updates `chalk@2.0.1` -> `chalk@2.1.0`

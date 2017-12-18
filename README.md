@@ -13,7 +13,7 @@
 ## Installation
 
 ```
-npm install git-unstaged
+npm install git-unstaged -g
 ```
 
 ## Usage
@@ -21,18 +21,20 @@ npm install git-unstaged
 ```
 Usage: git-unstaged [options]
 
-Options:
+Commands:
+  -h, --help, help                Output usage information
+  -v, --version, version          Output the version number
 
--h, --help           output usage information
--V, --version        output the version number
--d, --depth [value]  the specified depth you want to recursively search for github repos
--a, --all            show all git repos and their status
+Options:
+  -b, --baseDirectory [path]      The base directory where operations should start from
+  -d, --depth [value]             The specified depth you want to recursively search for git repos
+  -a, --all                       Show all git repos and their status
 ```
 
 ## Example
 
 ```
-$git-unstaged --depth=2
+$git-unstaged --depth 2
 
 /Users/gabrielcsapo/Documents/espyjs
 ## wip
@@ -54,7 +56,7 @@ $git-unstaged --depth=2
 > Since git allows the execution of non [builtin](https://github.com/git/git/blob/master/git.c#L528) methods another way to run this command would be
 
 ```
-$git unstaged --depth=2
+$git unstaged --depth 2
 
 /Users/gabrielcsapo/Documents/espyjs
 ## wip
