@@ -32,9 +32,9 @@
     "chalk": "^2.3.0"
   },
   "devDependencies": {
-    "eslint": "^4.13.1",
-    "tap": "^11.0.0",
+    "eslint": "^4.15.0",
+    "tap": "^11.0.1",
     "tape": "^4.8.0",
-    "tryitout": "^1.2.2"
+    "tryitout": "^2.0.1"
   }
 }
