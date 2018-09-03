@@ -21,6 +21,15 @@ npm install git-unstaged -g
 ```
 Usage: git-unstaged [options]
 
+Key:
+
+  M -> modified
+  A  -> added
+  D -> deleted
+  R -> renamed
+  C -> copied
+  ?? -> untracked
+
 Commands:
   -h, --help, help                Output usage information
   -v, --version, version          Output the version number

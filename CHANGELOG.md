@@ -1,3 +1,8 @@
+# 1.0.1 (09/02/2018)
+
+- cleans up code
+- adds key to help menu
+
 # 1.0.0 (12/18/2017)
 
 - removes commander

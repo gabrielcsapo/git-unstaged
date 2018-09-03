@@ -1,6 +1,6 @@
 {
   "name": "git-unstaged",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🎭 Get all unstaged git repos in a folder",
   "author": "Gabriel J. Csapo <gabecsapo@gmail.com>",
   "license": "MIT",
@@ -23,16 +23,23 @@
     "node": ">= 8"
   },
   "scripts": {
-    "lint": "eslint .",
+    "lint": "standard --verbose",
     "test": "tape test/*.js",
     "coverage": "tap test/*.js --coverage --coverage-report=lcov",
     "generate-docs": "tryitout"
+  },
+  "standard": {
+    "ignore": [
+      "docs/**",
+      "example/**",
+      "coverage/**"
+    ]
   },
   "dependencies": {
     "chalk": "^2.3.0"
   },
   "devDependencies": {
-    "eslint": "^4.15.0",
+    "standard": "^11.0.1",
     "tap": "^11.0.1",
     "tape": "^4.8.0",
     "tryitout": "^2.0.1"
